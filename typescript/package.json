@@ -19,5 +19,9 @@
     "tslint-config-prettier": "^1.18.0",
     "tslint-config-standard": "^8.0.1",
     "typescript": "^3.4.1"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "preset": "ts-jest/presets/js-with-ts"
   }
 }

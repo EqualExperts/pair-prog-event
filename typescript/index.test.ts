@@ -1,23 +1,17 @@
-import { life, Board } from '.'
+import { life } from '.'
 
 describe('populated cell', () => {
   it('dies of solitude if it has no neighbours', () => {
-    const actual = life([
+    const next = life([
       [false, false, false],
       [false, true, false],
       [false, false, false]
     ])
 
-    const expected: Board = [
-      [false, false, false],
-      [false, false, false],
-      [false, false, false]
-    ]
-
-    expect(actual).toEqual(expected)
+    expect(next[1][1]).toBe(false)
   })
 
-  it('dies of solitude if it has one neighbour')
+  it.todo('dies of solitude if it has one neighbour')
 
   it.todo('dies by overpopulation with more than three neighbours')
 
