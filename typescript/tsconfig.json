@@ -1,0 +1,27 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "composite": false,
+    "declaration": false,
+    "declarationMap": false,
+    "esModuleInterop": true,
+    "target": "es5",
+    "sourceMap": true,
+    "lib": ["dom", "es6", "es2015", "es2016", "es2017", "scripthost"],
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "allowJs": true,
+    "checkJs": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
+  },
+  "exclude": ["node_modules"]
+}
