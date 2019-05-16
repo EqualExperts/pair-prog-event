@@ -1,4 +1,4 @@
-module Main exposing (Board, life)
+module Main exposing (life)
 
 
 type alias Board =
