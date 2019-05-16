@@ -1,7 +1,6 @@
 module MainTest exposing (suite)
 
 import Expect
-import Fuzz exposing (Fuzzer, int, list, string)
 import Main exposing (life)
 import Test exposing (..)
 
