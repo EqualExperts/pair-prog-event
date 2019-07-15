@@ -7,10 +7,10 @@ describe('populated cell', () => {
       [false, true, false],
       [false, false, false]
     ])
-    
+
     expect(next[1][1]).toBe(false)
   })
-  
+
   it.todo('survives if it has two or three neighbors ')
 
   it.todo('dies of solitude if it has one neighbour')
