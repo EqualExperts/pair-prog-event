@@ -1,6 +1,7 @@
 {
-  "name": "reasonml",
-  "version": "0.1.0",
+  "name": "pair-programming-event",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
