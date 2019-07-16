@@ -2,7 +2,17 @@
 
 ## Installation
 
-Clone the repository, navigate to the `reasonml` folder.
+Clone the repository, navigate to the `reasonml` folder and run:
+
+```
+$ npm install
+```
+
+or
+
+```
+$ yarn
+```
 
 ## Running tests
 
