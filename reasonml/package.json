@@ -6,10 +6,10 @@
     "build": "bsb -make-world",
     "build:watch": "bsb -make-world -w",
     "clean": "bsb -clean-world",
-    "pretest": "yarn build",
+    "pretest": "npm run build",
     "test": "jest",
     "test:watch": "jest --coverage --watchAll",
-    "watch": "concurrently 'yarn build:watch' 'yarn test:watch'"
+    "watch": "concurrently 'npm run build:watch' 'npm run test:watch'"
   },
   "keywords": [
     "BuckleScript"
