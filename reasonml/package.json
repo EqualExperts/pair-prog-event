@@ -4,9 +4,12 @@
   "private": true,
   "scripts": {
     "build": "bsb -make-world",
-    "start": "bsb -make-world -w",
+    "build:watch": "bsb -make-world -w",
     "clean": "bsb -clean-world",
-    "test": "npm run build && jest"
+    "pretest": "yarn build",
+    "test": "jest",
+    "test:watch": "jest --coverage --watchAll",
+    "watch": "concurrently 'yarn build:watch' 'yarn test:watch'"
   },
   "keywords": [
     "BuckleScript"
@@ -16,6 +19,7 @@
   "devDependencies": {
     "@glennsl/bs-jest": "^0.4.8",
     "bs-platform": "^5.0.6",
+    "concurrently": "^4.1.1",
     "jest": "^24.8.0"
   }
 }

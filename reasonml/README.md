@@ -21,3 +21,9 @@ To run tests once, execute:
 ```
 $ npm test
 ```
+
+To run tests in watch mode, execute:
+
+```
+$ npm watch
+```

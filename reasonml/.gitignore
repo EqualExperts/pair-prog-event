@@ -1,5 +1,6 @@
 *.bs.js
 .merlin
 .bsb.lock
+/coverage/
 /lib/bs/
 /node_modules/
