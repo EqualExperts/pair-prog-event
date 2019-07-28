@@ -6,3 +6,4 @@ Includes starter projects for:
 * Elm
 * F#
 * JavaScript and TypeScript
+* ReasonML
