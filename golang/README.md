@@ -1,8 +1,8 @@
-# TypeScript Katas
+# Game of Life
 
-## Getting started
+## Setup
 
-Clone the repository and navigate to the `golang` folder.
+Clone the repository, and navigate to the `golang` folder.
 
 ## Running tests
 
